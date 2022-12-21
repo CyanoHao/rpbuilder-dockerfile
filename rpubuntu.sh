@@ -1,3 +1,5 @@
+PS1="(rpbuilder-ubuntu) $PS1"
+
 function run() {
   xhost +
   docker run -it --rm \
